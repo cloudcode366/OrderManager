@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-173.0" y="857.0">model.Products</node>
+    <node x="-43.0" y="0.5">control.OrdersManager</node>
+    <node x="295.0" y="631.0">model.Orders</node>
+    <node x="-24.0" y="486.0">control.ProductsManager</node>
+    <node x="416.0" y="290.5">control.MainManager</node>
+    <node x="554.5" y="-116.0">control.CustomersManager</node>
+    <node x="771.0" y="315.0">model.Customers</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="control.ProductsManager" target="model.Products" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="75.24534409724117" y="561.2647194766018" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.OrdersManager" target="control.CustomersManager" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.ProductsManager" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.ProductsManager" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.CustomersManager" target="model.Customers" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="model.Customers" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.OrdersManager" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Orders" target="model.Products" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.OrdersManager" target="control.ProductsManager" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="128.57430405698278" y="129.13072204269247" />
+      <point x="126.49247900034788" y="142.32720434510253" />
+      <point x="125.2983950946163" y="155.17537789662111" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.OrdersManager" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.CustomersManager" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Orders" target="model.Customers" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.MainManager" target="control.CustomersManager" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="516.7095099984374" y="328.91165401509005" />
+      <point x="522.0532368570902" y="317.9085537719464" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="control.OrdersManager" target="model.Orders" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="265.23122335365" y="361.4584049144636" />
+      <point x="271.83223122185746" y="374.48420003561387" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.9029688823031331" showDependencies="true" x="548.5188454212454" y="421.8732893772893" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
